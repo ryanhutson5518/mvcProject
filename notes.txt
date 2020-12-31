@@ -1,0 +1,25 @@
+﻿
+
+
+
+CategoryController.cs is where I talk to the database   ... CRUD operations
+
+Views/Shared/_Layout.cshtml = This is where the navigation bar is, and where I need to change the Links
+	This is also where I put links to bootstrap or other imports that I want ... fontawesome
+
+appsettings.json is where I configure the default connection string
+
+Startup.cs also needs some configuration in order to connect to the database
+
+*** View passes data entered in to the model, which then passes the object to the controller
+
+Data folder/ApplicationDbContext.cs = SUPER IMPORTANT for creating data objects for the database
+	After creating a database object ... run the package manager code to create the migration
+	Then run more code to update-database
+
+Server side validation = CategoryController.cs ... check code
+
+Client side validation ... This one seems better and faster ... check code for the view on Create.cshtml
+
+When creating the Edit and Delete actions in CategoryController... I did not change much
+
